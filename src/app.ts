@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("<h1>File Upload Starter</h1>");
+  res.send("<h1>Email Project</h1> <a href='/send'>send email</a>");
 });
 
 // middleware
