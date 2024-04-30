@@ -31,16 +31,17 @@
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/node": "^20.12.7",
-    "ts-node-dev": "^2.0.0",
     "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
     "@types/express-fileupload": "^1.5.0",
     "@types/http-status-codes": "^1.2.0",
     "@types/joi": "^17.2.3",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.12.7",
+    "@types/nodemailer": "^6.4.14",
     "@types/swagger-ui-express": "^4.1.6",
-    "@types/yamljs": "^0.2.34"
+    "@types/yamljs": "^0.2.34",
+    "ts-node-dev": "^2.0.0"
   }
 }

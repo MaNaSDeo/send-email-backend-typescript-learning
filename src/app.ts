@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 import "express-async-errors";
 import express, { Request, Response } from "express";
+import { sendEmail } from "./controllers/sendEmail";
 
 // error handler
 import notFound from "./middleware/not-found";
@@ -17,6 +18,8 @@ app.use(express.json());
 app.get("/", (req: Request, res: Response) => {
   res.send("<h1>Email Project</h1> <a href='/send'>send email</a>");
 });
+
+app.get("/send", sendEmail);
 
 // middleware
 app.use(notFound);
